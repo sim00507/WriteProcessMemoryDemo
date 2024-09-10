@@ -10,7 +10,7 @@ This repository demonstrates how to use the `WriteProcessMemory` function in a W
 ### Step 1: Compile and Run the Dummy Program
 
 1. Build and run the `DummyProgram.cpp` file.  
-   - This program prints out the memory addresses and values of variables such as `varInt`.
+   - This program prints out the memory addresses and values of variables such as `varInt`, `varString`, and `arrChar`.
    - The program also prints the process ID (PID), which will be used in the `WriteProcessMemory` program.
    - The program will loop indefinitely, allowing you to keep it running while you execute the `WriteProcessMemory` program.
 
