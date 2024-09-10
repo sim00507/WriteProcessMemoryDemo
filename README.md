@@ -23,18 +23,6 @@ This repository demonstrates how to use the `WriteProcessMemory` function in a W
 5. The program will use the `WriteProcessMemory` function to overwrite the integer with a new value (`intToWrite = 312532`).
 6. If the operation is successful, the console will display a success message. Otherwise, it will show an error message with the error code.
 
-## Program Structure
-
-### DummyProgram.cpp
-
-- The Dummy Program runs in a loop and prints the values and memory addresses of three variables:
-  - `varInt`: An integer initialized with the value `123456`.
-
-### WriteProcessMemory.cpp
-
-- The WriteProcessMemory program allows you to enter a target process's PID and memory address, then overwrites the target memory with a new integer value.
-- The program uses the Windows API function `WriteProcessMemory` to perform the memory modification.
-- After overwriting the memory, the program prints whether the operation was successful or if an error occurred.
 
 ## Example
 
@@ -62,12 +50,6 @@ varInt(0x7ff64812f8ac) = 312532
 
 - `DummyProgram.cpp`: Source code for the Dummy Program.
 - `WriteProcessMemory.cpp`: Source code for the WriteProcessMemory Program.
-
-## Requirements
-
-- Windows operating system
-- Visual Studio or any C++ compiler that supports Windows API
-- Administrator privileges may be required to run the `WriteProcessMemory` function
 
 ## Disclaimer
 
